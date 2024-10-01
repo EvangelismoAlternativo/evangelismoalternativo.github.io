@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 20px 0;
+            color: red; /* Cambia el color del título a rojo */
+            line-height: 1; /* Ajusta la altura de línea para que parezca un solo título */
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column; /* Coloca las imágenes en columnas */
+            align-items: center; /* Centra el contenido */
+            margin: 20px 0;
+        }
+        .image-item {
+            display: flex;
+            align-items: flex-start; /* Alinea imagen y descripción */
+            margin: 10px 0; /* Espacio entre filas */
+        }
+        .image-item img {
+            width: 150px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.2s;
+            margin-right: 10px; /* Espacio a la derecha de la imagen */
+        }
+        .image-item img:hover {
+            transform: scale(1.05);
+        }
+        .description {
+            max-width: 250px; /* Ancho máximo para la descripción */
+            text-align: left; /* Alinear texto a la izquierda */
+            margin-top: 0; /* Asegúrate de que no haya margen superior */
+        }
+.description p {
+    margin: 2px 0; /* Reduce el margen superior e inferior */
+}
+.description ul {
+    padding-left: 20px; /* Espacio a la izquierda de las viñetas */
+    margin: 5px 0; /* Espaciado entre la lista y otros elementos */
+}
+.check-list {
+    list-style-type: none; /* Elimina las viñetas predeterminadas */
+    padding: 0; /* Elimina el padding de la lista */
+    margin: 0; /* Elimina el margen de la lista */
+}
+
+.check-list li {
+    position: relative; /* Posiciona el elemento relativo */
+    padding-left: 20px; /* Espacio para el texto */
+    margin: 0; /* Sin margen */
+}
+
+.check-list li::before {
+    content: '★'; /* Símbolo de estrella */
+    color: gold; /* Color de la estrella */
+    position: absolute; /* Posición absoluta para colocarlo */
+    left: 0; /* Coloca la estrella al inicio del li */
+    top: 0; /* Alinea la estrella en la parte superior */
+    font-weight: bold; /* Aumenta el grosor de la estrella */
+    font-size: 20px; /* Ajusta el tamaño si es necesario */
+    line-height: 1; /* Asegúrate de que la altura de línea no afecte la alineación */
+}
+
+
+.subtitle {
+    color: red; /* Color rojo */
+       font-weight: bold; /* Negrita */
+    margin: 0; /* Elimina el margen superior e inferior */
+}
+.contact {
+    margin: 20px 0; /* Espaciado superior e inferior */
+    font-size: 1.2em; /* Tamaño de fuente */
+}
+.contact p {
+    margin: 5px 0; /* Espaciado entre líneas */
+}
+    </style>
+</head>
+<body>
+
+    <h1>EVANGELISMO<br>ALTERNATIVO</h1>
+    
+    <div class="image-container">
+        <div class="image-item">
+            <a href="https://es.slideshare.net/slideshow/curso-practico-de-evangelismo-alternativo/272093560" target="_blank">
+                <img src="imagen1.jpg" alt="Imagen 1">
+            </a>
+            <div class="description">
+            <a href="https://es.slideshare.net/slideshow/curso-practico-de-evangelismo-alternativo/272093560" target="_blank">           
+            <p class="subtitle">CURSO PRÁCTICO DE EVANGELISMO ALTERNATIVO</p>
+            </a>
+  <ul class="check-list">
+                <li><strong>¡ES GRATIS!</strong></li><li>¡Haz que 100 personas reciban a Cristo en 1 hora!</li><li> ¿Quieres aprender Estrategias distintas a las tradicionales?</li> <li>¿Quieres Evangelizar aunque no sepas hablar bien?</li><li> Persona a Persona y Campaña Masiva.</li>
+  </ul>
+            </div>
+        </div>
+        <div class="image-item">
+            <a href="https://es.slideshare.net/slideshow/i7-evangeliza-facil-la-herramienta-para-evangelizar/272098109" target="_blank">
+                <img src="imagen2.jpg" alt="Imagen 2">
+            </a>
+            <div class="description">
+            <a href="https://es.slideshare.net/slideshow/i7-evangeliza-facil-la-herramienta-para-evangelizar/272098109" target="_blank">
+             <p class="subtitle">"i7" EVANGELIZA FÁCIL</p>
+             </a>      
+  <ul class="check-list">         
+             <li><strong>¡ES GRATIS!</strong></li><li>Es una herramienta muy efectiva para el Evangelismo “PERSONA A PERSONA”. </li><li>Es portátil.
+ </li> <li>Consta de una secuencia de 7 ILUSTRACIONES, que podrás visualizar y mostrarle a las personas desde la PANTALLA DE TU CELULAR, cada vez que evangelices. </li> <li> ¡Y ya incluye 7 ESCRITURAS para que se las leas desde allí! Además incluye la CONFESIÓN DE SALVACIÓN</li>
+  </ul>
+            </div>
+        </div>
+    </div>
+<div class="contact">
+    <p>CONTACTO:</p>
+    <p><a href="mailto:tucorreo@ejemplo.com">evangelismoalternativo@gmail.com</a></p>
+</div>
+</body>
+</html>
