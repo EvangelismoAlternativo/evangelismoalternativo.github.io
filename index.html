@@ -21,7 +21,7 @@
         h1 {
             font-size: 3em;
             margin: 20px 0;
-            color: #FF6666; /* Cambia el color del título a rojo */
+            color: #FF7F7F; /* Cambia el color del título a rojo */
             line-height: 1; /* Ajusta la altura de línea para que parezca un solo título */
         }
         .image-container {
@@ -83,23 +83,28 @@
 
 
 .subtitle {
-    color: #FF6666; /* Color rojo */
+    color: #FF9999; /* Color rojo */
        font-weight: bold; /* Negrita */
     margin: 0; /* Elimina el margen superior e inferior */
+  }
+.link {
+    color: #FF7F7F; /* Rojo claro */
     text-decoration: none; /* Sin subrayado */
 }
-.subtitle:hover {
+
+.link:hover {
     text-decoration: underline; /* Subrayado al pasar el ratón */
 }
 .contact {
     margin: 20px 0; /* Espaciado superior e inferior */
     font-size: 1.2em; /* Tamaño de fuente */
+    color: #87CEEB; /* Celeste claro */
 }
 .contact p {
     margin: 5px 0; /* Espaciado entre líneas */
 }
 .email {
-    color: #00BFFF; /* Celeste */
+    color: #87CEEB; /* Celeste claro*/
     text-decoration: none; /* Sin subrayado */
 }
 
@@ -107,6 +112,7 @@
     text-decoration: underline; /* Subrayado al pasar el ratón */
 }
     </style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -118,7 +124,7 @@
                 <img src="imagen1.jpg" alt="Imagen 1">
             </a>
             <div class="description">
-            <a href="https://es.slideshare.net/slideshow/curso-practico-de-evangelismo-alternativo/272093560" target="_blank">           
+            <a href="https://es.slideshare.net/slideshow/curso-practico-de-evangelismo-alternativo/272093560" target="_blank" class="link">           
             <p class="subtitle">CURSO PRÁCTICO DE EVANGELISMO ALTERNATIVO</p>
             </a>
   <ul class="check-list">
@@ -131,7 +137,7 @@
                 <img src="imagen2.jpg" alt="Imagen 2">
             </a>
             <div class="description">
-            <a href="https://es.slideshare.net/slideshow/i7-evangeliza-facil-la-herramienta-para-evangelizar/272098109" target="_blank">
+            <a href="https://es.slideshare.net/slideshow/i7-evangeliza-facil-la-herramienta-para-evangelizar/272098109" target="_blank" class="link">
              <p class="subtitle">"i7" EVANGELIZA FÁCIL</p>
              </a>      
   <ul class="check-list">         
@@ -142,7 +148,7 @@
         </div>
     </div>
     <div class="contact">
-    <p><i>Si voluntariamente deseas ofrendar, sembrar o donar para que sigamos produciendo nuevos materiales escribe a:</i></p>
+    <p>Si voluntariamente deseas ofrendar, sembrar o donar para que sigamos produciendo nuevos materiales escribe a:</p>
     <p><a href="mailto:tucorreo@ejemplo.com" class="email">evangelismoalternativo@gmail.com</a></p>
 </div>
 </body>
