@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web</title>
     <style>
-        body {
+        body 
+        {
+            background-color: #1A1A1A; /* Color de fondo negro */
+            color: white; /* Color de texto por defecto (opcional) */
+            text-align: center; /* Centrar texto en todo el cuerpo */
+            font-family: Arial, sans-serif; /* Fuente moderna */
+        }
+        {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -14,7 +21,7 @@
         h1 {
             font-size: 3em;
             margin: 20px 0;
-            color: red; /* Cambia el color del título a rojo */
+            color: #FF6666; /* Cambia el color del título a rojo */
             line-height: 1; /* Ajusta la altura de línea para que parezca un solo título */
         }
         .image-container {
@@ -76,9 +83,13 @@
 
 
 .subtitle {
-    color: red; /* Color rojo */
+    color: #FF6666; /* Color rojo */
        font-weight: bold; /* Negrita */
     margin: 0; /* Elimina el margen superior e inferior */
+    text-decoration: none; /* Sin subrayado */
+}
+.subtitle:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
 }
 .contact {
     margin: 20px 0; /* Espaciado superior e inferior */
@@ -86,6 +97,14 @@
 }
 .contact p {
     margin: 5px 0; /* Espaciado entre líneas */
+}
+.email {
+    color: #00BFFF; /* Celeste */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.email:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
 }
     </style>
 </head>
@@ -124,7 +143,7 @@
     </div>
     <div class="contact">
     <p><i>Si voluntariamente deseas ofrendar, sembrar o donar para que sigamos produciendo nuevos materiales escribe a:</i></p>
-    <p><a href="mailto:tucorreo@ejemplo.com">evangelismoalternativo@gmail.com</a></p>
+    <p><a href="mailto:tucorreo@ejemplo.com" class="email">evangelismoalternativo@gmail.com</a></p>
 </div>
 </body>
 </html>
